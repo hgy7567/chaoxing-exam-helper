@@ -1,0 +1,31 @@
+{
+  "name": "chaoxing-exam-helper",
+  "version": "1.0.0",
+  "description": "> 通过 Android 系统自带的 **ADB 通道**读取界面节点树 + 模拟点击，由大模型给出答案。 > **不 root、不装无障碍服务、不修改学习通 APK、截图也不需要**（学习通开了 `FLAG_SECURE`，截屏本来就是纯黑）。 > > 支持两种跑法：**手机单机版**（Termux，考场无电脑也能用）和 **电脑＋手机版**。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Threewintersandfoursummers/chaoxing-exam-helper.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Threewintersandfoursummers/chaoxing-exam-helper/issues"
+  },
+  "homepage": "https://github.com/Threewintersandfoursummers/chaoxing-exam-helper#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.0"
+  }
+}
